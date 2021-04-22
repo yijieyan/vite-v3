@@ -25,7 +25,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3 # 使用部署到 GitHub pages 的 action
         with:
           publish_dir: ./dist # 部署打包后的 dist 目录
-          github_token: ${{ secrets.test }} # secret 名
-          user_name: ${{ secrets.yijieyan }}
-          user_email: ${{ secrets.839108892@qq.com }}
+          github_token: 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 # secret 名
+          user_name: yijieyan
+          user_email: 839108892@qq.com
           commit_message: Update Vite2.x + Vue3.x + TypeScript Starter # 部署时的 git 提交信息，自由填写
