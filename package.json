@@ -10,7 +10,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{vue,js,ts}": "eslint --fix"
+    "*.{vue,js}": "eslint --fix"
   },
   "dependencies": {
     "axios": "^0.21.1",
